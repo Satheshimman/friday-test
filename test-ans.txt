@@ -62,13 +62,15 @@ mul(8)
 a)Nan the code has error so it doesn't give ther result
 			b)Porovide two argument when calling the mul function
 				ex:mul(8,2)   output:16
-			c)the mechanism used in the program is js function
+			c)the mechanism used in the program is default param
 			d)function mul(c,d){
 				return c*d
 				}		
-				mul(8,2)
-				OUTPUT:16
-				expected in two arguments
+				const result=mul(8,2)
+				
+console.log(result)
+OUTPUT:16
+expected in two arguments
 
 
 
